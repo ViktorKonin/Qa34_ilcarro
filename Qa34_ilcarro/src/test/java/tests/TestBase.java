@@ -31,7 +31,9 @@ public class TestBase {
 
     public void openLoginForm() {
         WebElement loginTab = wd.findElement(By.xpath("//*[@href='/login?url=%2Fsearch']"));
+        //WebElement loginTab = wd.findElement(By.xpath("//a[text()=' Log in ']"));
         loginTab.click();
+
     }
 
     public void fillLoginForm(String email, String password) {
@@ -41,6 +43,7 @@ public class TestBase {
 
     public void submitLogin() {
         wd.findElement(By.xpath("//button[@type='submit']")).click();
+
     }
 
     //find, click, clear, sendKeys
