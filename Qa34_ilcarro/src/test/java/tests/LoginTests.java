@@ -2,7 +2,7 @@ package tests;
 
 import org.testng.annotations.Test;
 
-public class loginTests extends TestBase {
+public class LoginTests extends TestBase {
 
 
     //success login
@@ -34,7 +34,7 @@ public class loginTests extends TestBase {
 
         //5.submit login
         submitLogin();
-        
+
         //6.Assert (is login success?) logout present? NOT
 
     }
