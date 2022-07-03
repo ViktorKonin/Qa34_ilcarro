@@ -17,7 +17,7 @@ public class LoginTests extends TestBase {
 
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("viktor@gmail.com", "Vviktor12345$");
-        app.getHelperUser().submitLogin();
+        app.getHelperUser().submit();
 
         //6.Assert (is login success?) logout present?
 
@@ -29,7 +29,7 @@ public class LoginTests extends TestBase {
 
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("viktorgmail.com", "Vviktor12345$");
-        app.getHelperUser().submitLogin();
+        app.getHelperUser().submit();
         //6.Assert (is login success?) logout present? NOT
 
     }

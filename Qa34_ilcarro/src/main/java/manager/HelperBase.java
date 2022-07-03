@@ -20,6 +20,10 @@ public class HelperBase {
             element.sendKeys(text);
         }
     }
+    public void submit() {
+        wd.findElement(By.xpath("//button[@type='submit']")).click();
+
+    }
 
     public void click(By locator){
        wd.findElement(locator).click();

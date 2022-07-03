@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.LoginTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-06-28T20:58:46" hostname="VIKTOR" time="10.461">
-  <properties/>
-  <testcase name="loginNegativeTestsWrongEmail" classname="tests.LoginTests" time="0.237"/>
-  <testcase name="successLogin" classname="tests.LoginTests" time="0.176"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
