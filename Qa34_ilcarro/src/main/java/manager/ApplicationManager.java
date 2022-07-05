@@ -33,7 +33,9 @@ public class ApplicationManager {
     public String getMassage() {
         //wait container
         new WebDriverWait(wd,Duration.ofSeconds(5))
-                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))))
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
         //get text
+        String message = wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
+        return message;
     }
 }

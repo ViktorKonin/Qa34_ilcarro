@@ -67,6 +67,6 @@ public class HelperUser extends HelperBase {
     }
 
     public void clickOk() {
-        click(By.xpath("//button[text"));
+        click(By.xpath("//button[text()='Ok']"));
     }
 }
