@@ -2,16 +2,22 @@ package tests;
 
 import models.User;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase {
-    @BeforeTest
+    @BeforeMethod
     public void preCondition() {
         //if logget ->> true - logout
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
         }
+    }
+
+    @AfterMethod
+    public void postCondition(){
+        app.getHelperUser().clickOk();
     }
 
     @Test
@@ -23,8 +29,20 @@ public class RegistrationTests extends TestBase {
         // app.getHelperUser().checkPolicy();
         app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submit();
-        Assert.assertEquals(app.getMassage(), "Registered");
-        app.getHelperUser().clickOk();
+        Assert.assertEquals(app.getHelperUser().getMassage(), "Registered");
+
+
+    }
+    @Test
+    public void RegistrationWrongPasswordFormat(){
+        User user = new User().setName("Zoa").setLastName("DSnow").setEmail("zoa@gmail.com").setPassword("Zoa");
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().checkPolicyXY();
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordFormatDisplayed());
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordSizeDisplayed());
+        Assert.assertTrue(app.getHelperUser().isYallaButtonNotActive());
+
 
     }
 }
