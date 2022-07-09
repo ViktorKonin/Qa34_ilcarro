@@ -70,7 +70,7 @@ public class HelperUser extends HelperBase {
     }
 
     public void clickOk() {
-        if(isElementPresent(By.xpath("//button[text()='Ok']"))) {
+        if (isElementPresent(By.xpath("//button[text()='Ok']"))) {
             click(By.xpath("//button[text()='Ok']"));
         }
     }
@@ -102,7 +102,7 @@ public class HelperUser extends HelperBase {
 
     public boolean isYallaButtonNotActive() {
         boolean disabled = isElementPresent(By.cssSelector("button[disabled]"));
-       boolean enabled = wd.findElement(By.cssSelector("[type='submit'")).isEnabled();
-        return disabled&&!enabled;
+        boolean enabled = wd.findElement(By.cssSelector("[type='submit']")).isEnabled();
+        return disabled && !enabled;
     }
 }

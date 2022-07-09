@@ -17,7 +17,7 @@ public class HelperCar extends HelperBase{
         typeAddress(car.getAddress());
 
 
-        select(By.id("fuel")),car.getFuel();
+        select(By.id("fuel"),car.getFuel());
 
     }
     private void select(By locator, String option){
