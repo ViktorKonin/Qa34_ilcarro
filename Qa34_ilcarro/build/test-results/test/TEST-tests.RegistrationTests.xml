@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.RegistrationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-07-09T19:06:15" hostname="VIKTOR" time="23.608">
-  <properties/>
-  <testcase name="RegistrationWrongPasswordFormat" classname="tests.RegistrationTests" time="0.761"/>
-  <testcase name="registrationSuccess" classname="tests.RegistrationTests" time="2.765"/>
-  <system-out><![CDATA[Password must contain 1 uppercase letter, 1 lowercase letter and one number
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

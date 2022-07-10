@@ -3,6 +3,10 @@ package manager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class HelperBase {
     WebDriver wd;
@@ -21,6 +25,8 @@ public class HelperBase {
         }
     }
     public void submit() {
+        new WebDriverWait(wd, Duration.ofSeconds(5))
+                .until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit']")));
         wd.findElement(By.xpath("//button[@type='submit']")).click();
 
     }
@@ -39,5 +45,15 @@ public class HelperBase {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public String getMassage() {
+        //pause
+        pause(2000);
+        //wait container
+        new WebDriverWait(wd, Duration.ofSeconds(5))
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
+        //get text
+        return wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
     }
 }
