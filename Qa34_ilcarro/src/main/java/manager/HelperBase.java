@@ -1,6 +1,7 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -55,5 +56,11 @@ public class HelperBase {
                 .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container"))));
         //get text
         return wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
+    }
+
+    public void jsexample(){
+        JavascriptExecutor js =(JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('#name').value='lola';");
+        js.executeScript("document.querySelector('#terms-of-use').checked=true;");
     }
 }
