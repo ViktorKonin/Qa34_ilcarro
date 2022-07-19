@@ -62,7 +62,7 @@ public class HelperSearch extends HelperBase {
         int one = Integer.parseInt(s);
         int two = Integer.parseInt(s1);
 
-        if (s != s1) {
+        if (one != two) {
             for (int i = one; i != two; i++) {
                clickNextMonth();
             }
