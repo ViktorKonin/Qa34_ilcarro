@@ -27,7 +27,10 @@ public class HelperUser extends HelperBase {
 
     public void fillLoginForm(String email, String password) {
         type(By.xpath("//input[@id='email']"), email);
+        takeScreenShots("C:\\Automation_QA34\\Qa34_ilcarro\\Qa34_ilcarro\\src\\test\\screenshots\\screen-1.png");
         type(By.xpath("//input[@id='password']"), password);
+
+
     }
     public void fillLoginForm(User user) {
         type(By.id("email"), user.getEmail());

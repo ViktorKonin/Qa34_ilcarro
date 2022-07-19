@@ -17,7 +17,7 @@ public class TestBase {
 
     @BeforeMethod
     public void startLogger(Method m){
-        logger.info("Start method with name -->>>"+m.getName());
+        logger.info("Start test with name -->>>"+m.getName());
     }
 
     @BeforeSuite
