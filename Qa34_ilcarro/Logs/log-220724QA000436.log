@@ -1,0 +1,13 @@
+00:04:39.561 INFO  manager.ApplicationManager - All tests run in Chrome browser.
+00:04:42.586 INFO  manager.ApplicationManager - Current Url-->>>https://ilcarro-1578153671498.web.app/search
+00:04:42.615 INFO  tests.TestBase - Start test with name -->>>searchPeriodPast
+00:04:42.616 INFO  manager.MyListener - WebDriver start find element -->>>By.id: city
+00:04:42.634 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: city
+00:04:43.213 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .pac-item
+00:04:43.229 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .pac-item
+00:04:43.252 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@id='dates']
+00:04:43.267 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@id='dates']
+00:04:43.832 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@class='cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing']
+00:04:43.846 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@class='cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing']
+00:04:43.877 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .logo
+00:04:43.890 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .logo

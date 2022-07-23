@@ -1,0 +1,21 @@
+00:42:08.883 INFO  manager.ApplicationManager - All tests run in Chrome browser.
+00:42:10.748 INFO  manager.ApplicationManager - Current Url-->>>https://ilcarro-1578153671498.web.app/search
+00:42:10.773 INFO  tests.TestBase - Start test with name -->>>searchNextMonth
+00:42:10.775 INFO  manager.MyListener - WebDriver start find element -->>>By.id: city
+00:42:10.791 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: city
+00:42:11.363 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .pac-item
+00:42:11.378 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .pac-item
+00:42:11.403 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+00:42:11.417 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+00:42:11.475 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+00:42:11.488 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+00:42:11.523 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 28 ']
+00:42:11.537 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 28 ']
+00:42:11.572 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 27 ']
+00:42:11.588 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 27 ']
+00:42:11.631 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+00:42:11.646 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+00:42:11.670 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+00:42:11.681 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+00:42:12.741 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .logo
+00:42:12.752 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .logo

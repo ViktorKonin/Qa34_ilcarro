@@ -1,7 +1,9 @@
 package manager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -10,6 +12,7 @@ public class HelperSearch extends HelperBase{
     public HelperSearch(WebDriver wd) {
         super(wd);
     }
+
 
     public void searchCurrentMonth(String city, String dataFrom, String dataTo) {
         typeCity(city);
@@ -175,7 +178,7 @@ public class HelperSearch extends HelperBase{
     }
 
     public void searchNextMonth(String city, String dataFrom, String dataTo) {
-
+        typeCity(city);
         click(By.id("dates"));
         click(By.xpath("//button[@aria-label='Next month']"));
 
@@ -191,6 +194,31 @@ public class HelperSearch extends HelperBase{
         click(By.xpath(locator2));
     }
 
+    public void clearFieldCity(){
+        click(By.xpath("//*[@id='city']"));
+        Actions action = new Actions(wd);
+        action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys(Keys.CLEAR);
+    }
 
 
+    public void clearFieldDates() {
+        click(By.xpath("//*[@id='dates']"));
+        Actions action = new Actions(wd);
+        action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys(Keys.CLEAR);
+    }
+
+
+    public void selectPeriodPast(String city, String dataFrom, String dataTo) {
+        typeCity(city);
+        click(By.xpath("//*[@id='dates']"));
+        pause(500);
+        click(By.xpath("//*[@class='cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing']"));
+        type(By.xpath("//*[@id='dates']"),dataFrom+"-"+dataTo);
+        click(By.xpath("//*[@class='cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing']"));
+
+    }
+
+    public boolean isMessageErrorPresent() {
+       return isElementPresent(By.xpath("//*[@class='ng-star-inserted']"));
+    }
 }

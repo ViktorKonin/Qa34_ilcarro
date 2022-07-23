@@ -1,0 +1,33 @@
+23:56:39.724 INFO  manager.ApplicationManager - All tests run in Chrome browser.
+23:56:54.220 INFO  manager.ApplicationManager - Current Url-->>>https://ilcarro-1578153671498.web.app/search
+23:56:54.252 INFO  tests.TestBase - Start test with name -->>>searchPeriodPast
+23:56:54.254 INFO  manager.MyListener - WebDriver start find element -->>>By.id: city
+23:56:54.274 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: city
+23:56:54.854 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .pac-item
+23:56:54.871 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .pac-item
+23:56:54.895 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@id='dates']
+23:56:54.911 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@id='dates']
+23:56:55.473 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@id='dates']
+23:56:55.487 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@id='dates']
+23:56:56.513 INFO  manager.MyListener - The name of method with error -->>>click
+23:56:56.515 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-jxs-c72="" formcontrolname="dates" id="dates" class="ng-pristine ng-invalid ng-touched" aria-haspopup="dialog" min="2022-07-23" max="2023-07-23" aria-owns="sat-datepicker-0"> is not clickable at point (335, 362). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.99.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cde2d0afca904e82475fd85a0f7188e, clickElement {id=79a2b0f6-5a88-4e20-8198-23dc831df6cf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50531}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50531/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6cde2d0afca904e82475fd85a0f7188e)] -> xpath: //*[@id='dates']]
+Session ID: 6cde2d0afca904e82475fd85a0f7188e
+23:56:56.517 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .logo
+23:56:56.534 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .logo
+23:56:57.616 INFO  manager.MyListener - The name of method with error -->>>click
+23:56:57.617 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-jxs-c25="" href="/" class="logo">...</a> is not clickable at point (262, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.99.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cde2d0afca904e82475fd85a0f7188e, clickElement {id=95d47164-4c0c-412b-879f-8fc48ccb9953}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50531}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50531/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6cde2d0afca904e82475fd85a0f7188e)] -> css selector: .logo]
+Session ID: 6cde2d0afca904e82475fd85a0f7188e

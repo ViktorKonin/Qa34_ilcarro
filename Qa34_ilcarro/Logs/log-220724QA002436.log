@@ -1,0 +1,17 @@
+00:24:38.758 INFO  manager.ApplicationManager - All tests run in Chrome browser.
+00:24:53.924 INFO  manager.ApplicationManager - Current Url-->>>https://ilcarro-1578153671498.web.app/search
+00:24:53.955 INFO  tests.TestBase - Start test with name -->>>searchPeriodPast
+00:24:53.957 INFO  manager.MyListener - WebDriver start find element -->>>By.id: city
+00:24:53.976 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: city
+00:24:54.564 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .pac-item
+00:24:54.583 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .pac-item
+00:24:54.607 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@id='dates']
+00:24:54.623 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@id='dates']
+00:24:55.193 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@class='cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing']
+00:24:55.212 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@class='cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing']
+00:24:55.237 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@id='dates']
+00:24:55.251 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@id='dates']
+00:24:55.365 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@class='cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing']
+00:24:55.382 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@class='cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing']
+00:24:55.535 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .logo
+00:24:55.550 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .logo
