@@ -7,18 +7,14 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class SearchTests extends TestBase {
-    @BeforeMethod
-//    public void preCondition(){
-//
-//        app.search().clearFieldCity();
-//        app.search().clearFieldDates();
-//    }
+
 
     @Test
     public void searchCurrentMonth() {
         app.search().searchCurrentMonth("Tel Aviv", "7/28/2022", "7/27/2022");
         app.search().submit();
         Assert.assertTrue(app.search().isListOfCarsAppeared());
+        app.search().takeScreenShots("C:\\Automation_QA34\\Qa34_ilcarro\\Qa34_ilcarro\\src\\test\\screenshots\\screen1");
 
     }
     @Test
@@ -26,6 +22,8 @@ public class SearchTests extends TestBase {
         app.search().searchNextMonth("Tel Aviv", "8/28/2022", "8/27/2022");
         app.search().submit();
         Assert.assertTrue(app.search().isListOfCarsAppeared());
+        Assert.assertTrue(app.search().isYallaButtonNotActive());
+        Assert.assertTrue(app.search().isPeriodOnPast());
 
     }
 
@@ -33,6 +31,7 @@ public class SearchTests extends TestBase {
     @Test
     public void searchPeriodPast(){
     app.search().selectPeriodPast("Ramat Gan","10/10/2020","10/11/2020");
+    app.submitWitoutWait();
     Assert.assertTrue(app.search().isMessageErrorPresent());
     }
 

@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -20,8 +21,8 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().clickOk();
     }
 
-    @Test
-    public void registrationSuccess() {
+    @Test(dataProvider = "dataRegistration", dataProviderClass = MyDataProvider.class)
+    public void registrationSuccess(User user) {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         User user = new User().setName("List").setLastName("Snows").setEmail("lis" + i + "@gmail.com").setPassword("Ff12345$");
         app.getHelperUser().openRegistrationForm();

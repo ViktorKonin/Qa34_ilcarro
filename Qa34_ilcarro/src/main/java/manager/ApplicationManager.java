@@ -47,4 +47,9 @@ public class ApplicationManager {
     public HelperSearch search() {
         return search;
     }
+
+    public void submitWitoutWait() {
+    }
+
+
 }

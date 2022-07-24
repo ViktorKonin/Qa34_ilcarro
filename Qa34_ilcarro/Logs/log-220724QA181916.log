@@ -1,0 +1,179 @@
+18:19:19.652 INFO  manager.ApplicationManager - All tests run in Chrome browser.
+18:19:22.817 INFO  manager.ApplicationManager - Current Url-->>>https://ilcarro-1578153671498.web.app/search
+18:19:22.845 INFO  tests.TestBase - Start test with name -->>>searchAnyPeriod
+18:19:22.846 INFO  manager.MyListener - WebDriver start find element -->>>By.id: city
+18:19:22.864 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: city
+18:19:23.436 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .pac-item
+18:19:23.451 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .pac-item
+18:19:23.474 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:23.487 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:23.533 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:23.547 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:23.612 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.626 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.662 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.677 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.709 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.721 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.755 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.767 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.793 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.807 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.833 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.843 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.869 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.881 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.910 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.922 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.947 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.959 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.986 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:23.998 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:24.029 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:24.044 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:24.069 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 10 ']
+18:19:24.084 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 10 ']
+18:19:24.117 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:24.128 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:24.154 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 15 ']
+18:19:24.169 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 15 ']
+18:19:24.207 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+18:19:24.222 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+18:19:24.247 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+18:19:24.260 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+18:19:25.263 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .logo
+18:19:25.274 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .logo
+18:19:25.504 INFO  tests.TestBase - Start test with name -->>>searchCurrentMonth
+18:19:25.505 INFO  manager.MyListener - WebDriver start find element -->>>By.id: city
+18:19:25.516 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: city
+18:19:26.104 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .pac-item
+18:19:26.116 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .pac-item
+18:19:26.139 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:26.150 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:26.193 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:26.205 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:26.228 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:26.239 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:26.276 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 28 ']
+18:19:26.290 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 28 ']
+18:19:26.327 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 27 ']
+18:19:26.341 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 27 ']
+18:19:26.375 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+18:19:26.386 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+18:19:26.405 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+18:19:26.417 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+18:19:27.648 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .logo
+18:19:27.657 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .logo
+18:19:27.771 INFO  tests.TestBase - Start test with name -->>>searchCurrentYear
+18:19:27.772 INFO  manager.MyListener - WebDriver start find element -->>>By.id: city
+18:19:27.783 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: city
+18:19:28.368 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .pac-item
+18:19:28.378 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .pac-item
+18:19:28.399 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:28.409 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:28.449 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:28.459 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:28.479 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:28.489 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:28.524 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:28.536 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:28.569 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 10 ']
+18:19:28.580 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 10 ']
+18:19:28.613 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 20 ']
+18:19:28.627 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 20 ']
+18:19:28.661 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+18:19:28.673 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+18:19:28.690 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+18:19:28.701 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+18:19:29.782 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .logo
+18:19:29.791 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .logo
+18:19:29.909 INFO  tests.TestBase - Start test with name -->>>searchCurrentYear2
+18:19:29.909 INFO  manager.MyListener - WebDriver start find element -->>>By.id: city
+18:19:29.920 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: city
+18:19:30.509 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .pac-item
+18:19:30.518 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .pac-item
+18:19:30.537 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:30.546 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:30.584 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:30.594 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:30.617 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:30.626 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:30.664 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:30.675 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:30.710 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 10 ']
+18:19:30.721 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 10 ']
+18:19:30.758 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:30.769 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:30.802 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:30.817 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:30.848 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 20 ']
+18:19:30.860 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 20 ']
+18:19:30.898 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+18:19:30.910 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+18:19:30.927 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+18:19:30.937 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+18:19:31.742 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .logo
+18:19:31.752 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .logo
+18:19:31.858 INFO  tests.TestBase - Start test with name -->>>searchCurrentYearLocalDate
+18:19:31.858 INFO  manager.MyListener - WebDriver start find element -->>>By.id: city
+18:19:31.870 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: city
+18:19:32.471 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .pac-item
+18:19:32.480 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .pac-item
+18:19:32.501 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:32.510 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:32.548 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:32.557 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:32.593 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:32.604 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:32.636 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 10 ']
+18:19:32.646 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 10 ']
+18:19:32.679 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:32.689 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:32.719 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:32.731 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:32.758 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 20 ']
+18:19:32.768 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 20 ']
+18:19:32.803 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+18:19:32.815 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+18:19:32.832 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+18:19:32.841 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+18:19:33.966 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .logo
+18:19:33.976 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .logo
+18:19:34.094 INFO  tests.TestBase - Start test with name -->>>searchNextMonth
+18:19:34.095 INFO  manager.MyListener - WebDriver start find element -->>>By.id: city
+18:19:34.107 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: city
+18:19:34.714 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .pac-item
+18:19:34.723 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .pac-item
+18:19:34.744 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:34.754 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:34.792 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:34.801 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:34.836 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@aria-label='Next month']
+18:19:34.848 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@aria-label='Next month']
+18:19:34.881 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 28 ']
+18:19:34.897 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 28 ']
+18:19:34.931 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //div[text()=' 27 ']
+18:19:34.945 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //div[text()=' 27 ']
+18:19:34.979 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+18:19:34.991 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+18:19:35.010 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+18:19:35.021 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+18:19:35.961 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .logo
+18:19:35.970 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .logo
+18:19:36.082 INFO  tests.TestBase - Start test with name -->>>searchPeriodPast
+18:19:36.082 INFO  manager.MyListener - WebDriver start find element -->>>By.id: city
+18:19:36.095 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: city
+18:19:36.697 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .pac-item
+18:19:36.706 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .pac-item
+18:19:36.727 INFO  manager.MyListener - WebDriver start find element -->>>By.id: dates
+18:19:36.736 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: dates
+18:19:36.772 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@id='dates']
+18:19:36.783 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@id='dates']
+18:19:37.331 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@class='cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing']
+18:19:37.345 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@class='cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing']
+18:19:37.369 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@id='dates']
+18:19:37.380 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@id='dates']
+18:19:37.480 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@class='cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing']
+18:19:37.490 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@class='cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing']
+18:19:37.598 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: .logo
+18:19:37.609 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: .logo

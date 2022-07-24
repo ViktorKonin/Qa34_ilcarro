@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProvider;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -20,9 +21,19 @@ public class LoginTests extends TestBase {
         app.getHelperUser().clickOk();
     }
 
-    @Test
-    public void successLogin() {
-        logger.info("Test start with email: 'viktor@gmail.com' & password 'Vviktor12345$'");
+    @Test(dataProvider = "dataLogin",dataProviderClass = MyDataProvider.class)
+    public void successLoginDP(String email,String password) {
+        logger.info("Test start with email: " + email + "& password: " + password);
+        app.getHelperUser().openLoginForm();
+        app.getHelperUser().fillLoginForm("viktor@gmail.com", "Vviktor12345$");
+        app.getHelperUser().submit();
+        Assert.assertEquals(app.getHelperUser().getMassage(),"Logged in");
+        logger.info("Test passed");
+    }
+
+    @Test(dataProvider = "loginCSV",dataProviderClass = MyDataProvider.class)
+    public void successLoginDpCSV(User user) {
+        logger.info("Test start with email: " + email + "& password: " + password);
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("viktor@gmail.com", "Vviktor12345$");
         app.getHelperUser().submit();
