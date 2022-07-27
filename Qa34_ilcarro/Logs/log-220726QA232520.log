@@ -1,0 +1,71 @@
+23:25:23.348 INFO  manager.ApplicationManager - All tests run in Chrome browser.
+23:25:26.579 INFO  manager.ApplicationManager - Current Url-->>>https://ilcarro-1578153671498.web.app/search
+23:25:26.602 INFO  tests.TestBase - Start test with name -->>>addNewCarSuccess
+23:25:36.656 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+23:25:36.675 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+23:25:36.710 INFO  manager.MyListener - WebDriver start find element -->>>By.id: email
+23:25:36.730 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: email
+23:25:36.806 INFO  manager.MyListener - WebDriver start find element -->>>By.id: password
+23:25:36.823 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: password
+23:25:36.890 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+23:25:36.908 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+23:25:36.937 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+23:25:36.950 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+23:25:37.605 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[text()='Ok']
+23:25:37.621 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[text()='Ok']
+23:25:38.655 INFO  manager.MyListener - WebDriver start find element -->>>By.id: 1
+23:25:38.671 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: 1
+23:25:38.715 INFO  manager.MyListener - WebDriver start find element -->>>By.id: pickUpPlace
+23:25:38.730 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: pickUpPlace
+23:25:38.809 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: div.pac-item
+23:25:39.251 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: div.pac-item
+23:25:39.781 INFO  manager.MyListener - WebDriver start find element -->>>By.id: make
+23:25:39.794 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: make
+23:25:39.858 INFO  manager.MyListener - WebDriver start find element -->>>By.id: model
+23:25:39.871 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: model
+23:25:39.935 INFO  manager.MyListener - WebDriver start find element -->>>By.id: year
+23:25:39.949 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: year
+23:25:40.023 INFO  manager.MyListener - WebDriver start find element -->>>By.id: engine
+23:25:40.036 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: engine
+23:25:40.107 INFO  manager.MyListener - WebDriver start find element -->>>By.id: fuel
+23:25:40.120 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: fuel
+23:25:40.170 INFO  manager.MyListener - WebDriver start find element -->>>By.id: gear
+23:25:40.185 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: gear
+23:25:40.224 INFO  manager.MyListener - WebDriver start find element -->>>By.id: wheelsDrive
+23:25:40.235 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: wheelsDrive
+23:25:40.277 INFO  manager.MyListener - WebDriver start find element -->>>By.id: doors
+23:25:40.291 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: doors
+23:25:40.369 INFO  manager.MyListener - WebDriver start find element -->>>By.id: seats
+23:25:40.383 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: seats
+23:25:40.459 INFO  manager.MyListener - WebDriver start find element -->>>By.id: class
+23:25:40.474 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: class
+23:25:40.548 INFO  manager.MyListener - WebDriver start find element -->>>By.id: fuelConsumption
+23:25:40.562 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: fuelConsumption
+23:25:40.650 INFO  manager.MyListener - WebDriver start find element -->>>By.id: serialNumber
+23:25:40.666 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: serialNumber
+23:25:40.745 INFO  manager.MyListener - WebDriver start find element -->>>By.id: price
+23:25:40.761 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: price
+23:25:40.840 INFO  manager.MyListener - WebDriver start find element -->>>By.id: distance
+23:25:40.855 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: distance
+23:25:40.933 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: input[placeholder='Type feature']
+23:25:40.947 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: input[placeholder='Type feature']
+23:25:41.029 INFO  manager.MyListener - WebDriver start find element -->>>By.id: about
+23:25:41.043 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: about
+23:25:41.114 INFO  manager.MyListener - WebDriver start find element -->>>By.id: photos
+23:25:41.134 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: photos
+23:25:41.169 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+23:25:41.187 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+23:25:41.713 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+23:25:41.723 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+23:25:42.252 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+23:25:42.262 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+23:25:42.777 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+23:25:42.787 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+23:25:42.800 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+23:25:42.815 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+23:25:44.841 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: div.dialog-container
+23:25:44.854 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: div.dialog-container
+23:25:44.864 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: div.dialog-container h1
+23:25:44.874 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: div.dialog-container h1
+23:25:44.886 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[text()='Search cars']
+23:25:44.896 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[text()='Search cars']

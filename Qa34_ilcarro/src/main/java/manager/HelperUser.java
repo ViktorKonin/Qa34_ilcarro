@@ -111,4 +111,10 @@ public class HelperUser extends HelperBase {
         submit();
         clickOk();
     }
+
+    public boolean isErrorEmailFormatDisplayed() {
+        return new WebDriverWait(wd, Duration.ofSeconds(5))
+                .until(ExpectedConditions.textToBePresentInElement(wd.findElement(By.cssSelector("div.error div:first-child")),
+                        "It'snot look like email"));
+    }
 }

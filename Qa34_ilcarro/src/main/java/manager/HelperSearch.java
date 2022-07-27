@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -180,10 +179,6 @@ public class HelperSearch extends HelperBase {
         // https://ilcarro-1578153671498.web.app/search/results?city=Jerusalem&startDate=2022-07-21%2000:00&endDate=2022-07-22%2000:00
         //currentURL.contains("results");
         return currentURL.startsWith("https://ilcarro-1578153671498.web.app/search/results");
-    }
-
-    public void returnToHome() {
-        click(By.cssSelector(".logo"));
     }
 
     public void searchNextMonth(String city, String dataFrom, String dataTo) {

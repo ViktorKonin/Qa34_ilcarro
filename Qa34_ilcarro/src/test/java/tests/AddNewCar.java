@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.Car;
 import models.User;
 import org.testng.Assert;
@@ -47,8 +48,19 @@ public class AddNewCar extends TestBase{
         app.car().submit();
         Assert.assertEquals(app.getHelperUser().getMassage(),"Car added");
     }
+
+    @Test(dataProvider = "",dataProviderClass = MyDataProvider.class)
+    public void addNewCarSuccess(){
+
+        app.car().openCarForm();
+        app.car().fillCarForm(car);
+        app.car().attachPhoto("C:\\Automation_QA34\\Qa34_ilcarro\\Qa34_ilcarro\\auto1.jpeg");
+        app.car().submit();
+        Assert.assertEquals(app.getHelperUser().getMassage(),"Car added");
+    }
     @AfterMethod
     public void postConditions(){
         app.car().returnToHome();
+        app.car().logoutFromAddNewCar();
     }
 }

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class tests.AddNewCar</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class tests.AddNewCar</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/tests.html">tests</a> &gt; AddNewCar</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">2</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">18.864s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="addNewCarSuccess"></a>
+<h3 class="failures">addNewCarSuccess</h3>
+<span class="code">
+<pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@type='submit'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: net.bytebuddy.renamed.java.lang.Object$ByteBuddy$hHv8qN00
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63198/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cda1cd5c20201604b16950b317d5794
+	at app//org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at app//org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at app//manager.HelperBase.submit(HelperBase.java:33)
+	at app//tests.AddNewCar.addNewCarSuccess(AddNewCar.java:47)
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.15.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.15.1/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.15.1/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at app//org.testng.TestRunner.run(TestRunner.java:601)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.15.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.15.1/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="postConditions"></a>
+<h3 class="failures">postConditions</h3>
+<span class="code">
+<pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()='Search cars']&quot;}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cda1cd5c20201604b16950b317d5794, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63198/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cda1cd5c20201604b16950b317d5794
+	at app//manager.MyListener.onError(MyListener.java:19)
+	at app//org.openqa.selenium.support.events.EventFiringDecorator.lambda$onError$2(EventFiringDecorator.java:185)
+	at java.base@11.0.15.1/java.util.Arrays$ArrayList.forEach(Arrays.java:4390)
+	at app//org.openqa.selenium.support.events.EventFiringDecorator.onError(EventFiringDecorator.java:183)
+	at app//org.openqa.selenium.support.decorators.DefaultDecorated.onError(DefaultDecorated.java:58)
+	at app//org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:308)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$hHv8qN00.findElement(Unknown Source)
+	at app//manager.HelperBase.click(HelperBase.java:39)
+	at app//manager.HelperCar.returnToHome(HelperCar.java:59)
+	at app//tests.AddNewCar.postConditions(AddNewCar.java:52)
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.15.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.15.1/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at app//org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at app//org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at app//org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+	at app//org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:785)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:761)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.15.1/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at app//org.testng.TestRunner.run(TestRunner.java:601)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.15.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.15.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.15.1/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">addNewCarSuccess</td>
+<td class="failures">8.806s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">postConditions</td>
+<td class="failures">10.058s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>23:45:14.491 INFO  tests.TestBase - Start test with name --&gt;&gt;&gt;addNewCarSuccess
+23:45:24.517 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //*[@href='/login?url=%2Fsearch']
+23:45:24.535 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //*[@href='/login?url=%2Fsearch']
+23:45:24.570 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: email
+23:45:24.588 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: email
+23:45:24.664 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: password
+23:45:24.680 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: password
+23:45:24.747 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:24.765 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:24.793 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:24.807 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:25.472 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[text()='Ok']
+23:45:25.488 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[text()='Ok']
+23:45:26.517 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: 1
+23:45:26.533 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: 1
+23:45:26.578 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: pickUpPlace
+23:45:26.592 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: pickUpPlace
+23:45:26.665 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.cssSelector: div.pac-item
+23:45:27.115 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.cssSelector: div.pac-item
+23:45:27.638 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: make
+23:45:27.652 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: make
+23:45:27.712 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: model
+23:45:27.726 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: model
+23:45:27.787 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: year
+23:45:27.801 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: year
+23:45:27.873 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: engine
+23:45:27.888 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: engine
+23:45:27.954 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: fuel
+23:45:27.968 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: fuel
+23:45:28.015 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: gear
+23:45:28.030 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: gear
+23:45:28.068 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: wheelsDrive
+23:45:28.081 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: wheelsDrive
+23:45:28.124 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: doors
+23:45:28.141 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: doors
+23:45:28.215 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: seats
+23:45:28.228 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: seats
+23:45:28.300 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: class
+23:45:28.313 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: class
+23:45:28.375 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: fuelConsumption
+23:45:28.389 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: fuelConsumption
+23:45:28.464 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: serialNumber
+23:45:28.478 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: serialNumber
+23:45:28.557 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: price
+23:45:28.572 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: price
+23:45:28.654 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: distance
+23:45:28.668 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: distance
+23:45:28.750 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.cssSelector: input[placeholder='Type feature']
+23:45:28.764 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.cssSelector: input[placeholder='Type feature']
+23:45:28.843 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: about
+23:45:28.858 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: about
+23:45:28.932 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.id: photos
+23:45:28.946 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.id: photos
+23:45:28.977 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:28.994 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:29.523 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:29.533 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:30.052 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:30.063 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:30.581 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:30.591 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:31.116 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:31.126 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:31.649 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:31.659 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:32.177 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:32.186 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:32.707 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:32.718 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:33.233 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:33.243 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:33.763 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:33.780 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:34.296 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:34.306 INFO  manager.MyListener - WebDriver found element by locator --&gt;&gt;&gt;By.xpath: //button[@type='submit']
+23:45:34.321 INFO  manager.MyListener - WebDriver start find element --&gt;&gt;&gt;By.xpath: //button[text()='Search cars']
+23:45:44.378 INFO  manager.MyListener - The name of method with error --&gt;&gt;&gt;findElement
+23:45:44.378 INFO  manager.MyListener - We have a problem -----&gt;&gt;&gt;&gt;&gt;org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[text()='Search cars']&quot;}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6cda1cd5c20201604b16950b317d5794, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63198}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63198/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6cda1cd5c20201604b16950b317d5794
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4</a> at Jul 26, 2022, 11:45:44 PM</p>
+</div>
+</div>
+</body>
+</html>

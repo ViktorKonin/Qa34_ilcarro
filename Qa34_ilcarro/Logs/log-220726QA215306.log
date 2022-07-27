@@ -1,0 +1,75 @@
+21:53:10.582 INFO  manager.ApplicationManager - All tests run in Chrome browser.
+21:53:15.128 INFO  manager.ApplicationManager - Current Url-->>>https://ilcarro-1578153671498.web.app/search
+21:53:15.166 INFO  tests.TestBase - Start test with name -->>>registrationSuccess2
+21:53:25.217 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //a[text()=' Sign up ']
+21:53:25.236 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //a[text()=' Sign up ']
+21:53:25.278 INFO  manager.MyListener - WebDriver start find element -->>>By.id: name
+21:53:25.297 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: name
+21:53:25.372 INFO  manager.MyListener - WebDriver start find element -->>>By.id: lastName
+21:53:25.391 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: lastName
+21:53:25.455 INFO  manager.MyListener - WebDriver start find element -->>>By.id: email
+21:53:25.472 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: email
+21:53:25.560 INFO  manager.MyListener - WebDriver start find element -->>>By.id: password
+21:53:25.579 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: password
+21:53:25.652 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: label[for='terms-of-use']
+21:53:25.672 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: label[for='terms-of-use']
+21:53:26.039 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+21:53:26.056 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+21:53:26.082 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+21:53:26.094 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+21:53:28.129 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: div.dialog-container
+21:53:38.159 INFO  manager.MyListener - The name of method with error -->>>findElement
+21:53:38.161 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.dialog-container"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c19751b20f9bebc6a17e902ceb53836, findElement {using=css selector, value=div.dialog-container}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59046/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c19751b20f9bebc6a17e902ceb53836
+21:53:48.224 INFO  tests.TestBase - Start test with name -->>>registrationSuccess2
+21:53:58.259 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //a[text()=' Sign up ']
+21:53:58.274 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //a[text()=' Sign up ']
+21:53:58.304 INFO  manager.MyListener - WebDriver start find element -->>>By.id: name
+21:53:58.318 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: name
+21:53:59.401 INFO  manager.MyListener - The name of method with error -->>>click
+21:53:59.402 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-iwv-c101="" autocomplete="name" formcontrolname="firstName" id="name" type="text" class="ng-dirty ng-valid ng-touched"> is not clickable at point (1355, 289). Other element would receive the click: <div _ngcontent-iwv-c105="" class="login-registration-progress-container">...</div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c19751b20f9bebc6a17e902ceb53836, clickElement {id=c5ba95d7-5657-4d3e-9479-5ab4ddf43c18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59046/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0c19751b20f9bebc6a17e902ceb53836)] -> id: name]
+Session ID: 0c19751b20f9bebc6a17e902ceb53836
+21:54:09.409 INFO  tests.TestBase - Start test with name -->>>registrationSuccess2
+21:54:19.473 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //a[text()=' Sign up ']
+21:54:19.486 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //a[text()=' Sign up ']
+21:54:19.504 INFO  manager.MyListener - WebDriver start find element -->>>By.id: name
+21:54:19.515 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: name
+21:54:20.589 INFO  manager.MyListener - The name of method with error -->>>click
+21:54:20.590 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-iwv-c101="" autocomplete="name" formcontrolname="firstName" id="name" type="text" class="ng-dirty ng-valid ng-touched"> is not clickable at point (1355, 289). Other element would receive the click: <div _ngcontent-iwv-c105="" class="login-registration-progress-container">...</div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c19751b20f9bebc6a17e902ceb53836, clickElement {id=c5ba95d7-5657-4d3e-9479-5ab4ddf43c18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59046/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0c19751b20f9bebc6a17e902ceb53836)] -> id: name]
+Session ID: 0c19751b20f9bebc6a17e902ceb53836
+21:54:30.644 INFO  tests.TestBase - Start test with name -->>>registrationSuccess2
+21:54:40.672 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //a[text()=' Sign up ']
+21:54:40.684 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //a[text()=' Sign up ']
+21:54:40.701 INFO  manager.MyListener - WebDriver start find element -->>>By.id: name
+21:54:40.711 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: name
+21:54:41.728 INFO  manager.MyListener - The name of method with error -->>>click
+21:54:41.728 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-iwv-c101="" autocomplete="name" formcontrolname="firstName" id="name" type="text" class="ng-dirty ng-valid ng-touched"> is not clickable at point (1355, 289). Other element would receive the click: <div _ngcontent-iwv-c105="" class="login-registration-progress-container">...</div>
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c19751b20f9bebc6a17e902ceb53836, clickElement {id=c5ba95d7-5657-4d3e-9479-5ab4ddf43c18}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59046/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0c19751b20f9bebc6a17e902ceb53836)] -> id: name]
+Session ID: 0c19751b20f9bebc6a17e902ceb53836

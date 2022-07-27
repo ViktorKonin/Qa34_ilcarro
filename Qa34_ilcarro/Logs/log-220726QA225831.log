@@ -1,0 +1,13 @@
+22:58:34.092 INFO  manager.ApplicationManager - All tests run in Chrome browser.
+22:58:39.218 INFO  manager.ApplicationManager - Current Url-->>>https://ilcarro-1578153671498.web.app/search
+22:58:39.246 INFO  tests.TestBase - Start test with name -->>>loginNegativeTestsWrongEmail
+22:58:49.299 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+22:58:49.317 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+22:58:49.356 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //input[@id='email']
+22:58:49.376 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //input[@id='email']
+22:58:49.647 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //input[@id='password']
+22:58:49.663 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //input[@id='password']
+22:58:49.748 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: [type='submit']
+22:58:49.767 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: [type='submit']
+22:58:49.778 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: div.error div:first-child
+22:58:49.798 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: div.error div:first-child
