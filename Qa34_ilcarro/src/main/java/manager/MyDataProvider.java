@@ -45,12 +45,12 @@ public class MyDataProvider {
     }
 
     @DataProvider
-    public Iterator<Object>validDataCar() throws IOException {
-        List<Object> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader(new File("")));
+    public Iterator<Object[]>validDataCar() throws IOException {
+        List<Object[]> list= new ArrayList<>();
+        BufferedReader reader =new BufferedReader(new FileReader(new File("src/test/resources/car.csv")));
         String line = reader.readLine();
-        while(line!=null){
-            String[] split = line.split(";");
+        while (line!=null){
+            String[]split = line.split(";");
             list.add(new Object[]{Car.builder()
                     .address(split[0])
                     .make(split[1])
@@ -70,8 +70,11 @@ public class MyDataProvider {
                     .features(split[15])
                     .about(split[16])
                     .build()});
-            line = reader.readLine();
+            line= reader.readLine();
         }
+
+
+
         return list.iterator();
     }
 }

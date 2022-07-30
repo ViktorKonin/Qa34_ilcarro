@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.AddNewCar" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-30T20:30:49" hostname="VIKTOR" time="7.746">
-  <properties/>
-  <testcase name="addNewCarSuccess" classname="tests.AddNewCar" time="7.746"/>
-  <system-out><![CDATA[23:30:37.987 INFO  tests.TestBase - Start test with name -->>>addNewCarSuccess
+23:30:20.405 INFO  manager.ApplicationManager - All tests run in Chrome browser.
+23:30:37.962 INFO  manager.ApplicationManager - Current Url-->>>https://ilcarro-1578153671498.web.app/search
+23:30:37.987 INFO  tests.TestBase - Start test with name -->>>addNewCarSuccess
 23:30:48.050 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
 23:30:48.069 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
 23:30:48.107 INFO  manager.MyListener - WebDriver start find element -->>>By.id: email
@@ -73,6 +71,3 @@
 23:30:56.917 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: div.dialog-container h1
 23:30:56.930 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[text()='Search cars']
 23:30:56.941 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[text()='Search cars']
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

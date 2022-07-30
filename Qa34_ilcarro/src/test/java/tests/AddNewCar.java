@@ -10,19 +10,20 @@ import org.testng.annotations.Test;
 
 import java.util.Random;
 
-public class AddNewCar extends TestBase{
+public class AddNewCar extends TestBase {
 
-    @BeforeMethod
-    public void preCondition(){
-      if(!app.getHelperUser().isLogged()){
-          app.getHelperUser().login(new User().setEmail("viktor@gmail.com").setPassword("Vviktor12345$"));
-      }
+    @BeforeMethod(alwaysRun = true)
+    public void preCondition() {
+        if (!app.getHelperUser().isLogged()) {
+            app.getHelperUser().login(new User().setEmail("viktor9@gmail.com").setPassword("Vviktor12345$"));
+        }
+
     }
 
-    @Test
-    public void addNewCarSuccess(){
+    @Test(groups = {"web", "smoke", "regres"})
+    public void addNewCarSuccess() {
         Random random = new Random();
-        int i = random.nextInt(1000)+1000;
+        int i = random.nextInt(1000) + 1000;
         Car car = Car.builder()
                 .address("Haifa, Israel")
                 .make("BMW")
@@ -36,7 +37,7 @@ public class AddNewCar extends TestBase{
                 .seats("4")
                 .clasS("C")
                 .fuelConsumption("6.5")
-                .carRegNumber("22-333-"+i)
+                .carRegNumber("222-333-" + i)
                 .price("65")
                 .distanceIncluded("800")
                 .features("type of features")
@@ -46,21 +47,22 @@ public class AddNewCar extends TestBase{
         app.car().fillCarForm(car);
         app.car().attachPhoto("C:\\Automation_QA34\\Qa34_ilcarro\\Qa34_ilcarro\\auto1.jpeg");
         app.car().submit();
-        Assert.assertEquals(app.getHelperUser().getMassage(),"Car added");
+        Assert.assertEquals(app.getHelperUser().getMassage(), "Car added");
     }
 
-    @Test(dataProvider = "",dataProviderClass = MyDataProvider.class)
-    public void addNewCarSuccess(){
+    @Test(dataProvider = "validDataCar", dataProviderClass = MyDataProvider.class, enabled = false)
+    public void addNewCarSuccess2(Car car) {
 
         app.car().openCarForm();
         app.car().fillCarForm(car);
         app.car().attachPhoto("C:\\Automation_QA34\\Qa34_ilcarro\\Qa34_ilcarro\\auto1.jpeg");
         app.car().submit();
-        Assert.assertEquals(app.getHelperUser().getMassage(),"Car added");
+        Assert.assertEquals(app.getHelperUser().getMassage(), "Car added");
     }
-    @AfterMethod
-    public void postConditions(){
+
+    @AfterMethod(alwaysRun = true)
+    public void postCondition() {
         app.car().returnToHome();
-        app.car().logoutFromAddNewCar();
     }
+
 }

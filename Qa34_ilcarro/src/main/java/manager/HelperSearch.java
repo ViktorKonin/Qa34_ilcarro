@@ -41,6 +41,7 @@ public class HelperSearch extends HelperBase {
     }
 
     private void typeCity(String city) {
+
         type(By.id("city"), city);
         pause(500);
         click(By.cssSelector(".pac-item"));
