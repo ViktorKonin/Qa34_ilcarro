@@ -1,0 +1,130 @@
+19:43:04.140 INFO  manager.ApplicationManager - All tests run in Chrome browser.
+19:43:11.947 INFO  manager.ApplicationManager - Current Url-->>>https://ilcarro-1578153671498.web.app/search
+19:43:11.997 INFO  tests.TestBase - Start test with name -->>>addNewCarSuccess
+19:43:22.061 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+19:43:22.092 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+19:43:22.169 INFO  manager.MyListener - WebDriver start find element -->>>By.id: email
+19:43:22.207 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: email
+19:43:22.375 INFO  manager.MyListener - WebDriver start find element -->>>By.id: password
+19:43:22.406 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: password
+19:43:22.545 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+19:43:22.581 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+19:43:22.642 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+19:43:22.679 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+19:43:28.805 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[text()='Ok']
+19:43:28.832 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[text()='Ok']
+19:43:29.878 INFO  manager.MyListener - WebDriver start find element -->>>By.id: 1
+19:43:29.899 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: 1
+19:43:29.975 INFO  manager.MyListener - WebDriver start find element -->>>By.id: pickUpPlace
+19:43:29.999 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: pickUpPlace
+19:43:30.124 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: div.pac-item
+19:43:33.271 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: div.pac-item
+19:43:33.848 INFO  manager.MyListener - WebDriver start find element -->>>By.id: make
+19:43:33.868 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: make
+19:43:34.006 INFO  manager.MyListener - WebDriver start find element -->>>By.id: model
+19:43:34.030 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: model
+19:43:34.137 INFO  manager.MyListener - WebDriver start find element -->>>By.id: year
+19:43:34.158 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: year
+19:43:34.274 INFO  manager.MyListener - WebDriver start find element -->>>By.id: engine
+19:43:34.297 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: engine
+19:43:34.406 INFO  manager.MyListener - WebDriver start find element -->>>By.id: fuel
+19:43:34.430 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: fuel
+19:43:34.506 INFO  manager.MyListener - WebDriver start find element -->>>By.id: gear
+19:43:34.529 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: gear
+19:43:34.591 INFO  manager.MyListener - WebDriver start find element -->>>By.id: wheelsDrive
+19:43:34.612 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: wheelsDrive
+19:43:34.680 INFO  manager.MyListener - WebDriver start find element -->>>By.id: doors
+19:43:34.703 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: doors
+19:43:34.826 INFO  manager.MyListener - WebDriver start find element -->>>By.id: seats
+19:43:34.848 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: seats
+19:43:34.963 INFO  manager.MyListener - WebDriver start find element -->>>By.id: class
+19:43:34.983 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: class
+19:43:35.091 INFO  manager.MyListener - WebDriver start find element -->>>By.id: fuelConsumption
+19:43:35.117 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: fuelConsumption
+19:43:35.254 INFO  manager.MyListener - WebDriver start find element -->>>By.id: serialNumber
+19:43:35.274 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: serialNumber
+19:43:35.395 INFO  manager.MyListener - WebDriver start find element -->>>By.id: price
+19:43:35.421 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: price
+19:43:35.533 INFO  manager.MyListener - WebDriver start find element -->>>By.id: distance
+19:43:35.555 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: distance
+19:43:35.681 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: input[placeholder='Type feature']
+19:43:35.704 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: input[placeholder='Type feature']
+19:43:35.828 INFO  manager.MyListener - WebDriver start find element -->>>By.id: about
+19:43:35.851 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: about
+19:43:35.961 INFO  manager.MyListener - WebDriver start find element -->>>By.id: photos
+19:43:35.983 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: photos
+19:43:36.011 INFO  manager.MyListener - The name of method with error -->>>sendKeys
+19:43:36.013 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Automation_QA34\Qa34_ilcarro\Qa34_ilcarro\auto1.jpeg
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2dac4ff3ab09f0a2412d9783b4844d0, sendKeysToElement {id=4d1616d1-1d24-473e-be10-adae6d926438, value=[Ljava.lang.CharSequence;@93501be}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65003/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b2dac4ff3ab09f0a2412d9783b4844d0)] -> id: photos]
+Session ID: b2dac4ff3ab09f0a2412d9783b4844d0
+19:43:36.018 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[text()='Search cars']
+19:43:46.035 INFO  manager.MyListener - The name of method with error -->>>findElement
+19:43:46.036 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2dac4ff3ab09f0a2412d9783b4844d0, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65003/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2dac4ff3ab09f0a2412d9783b4844d0
+19:43:46.050 INFO  tests.TestBase - Start test with name -->>>loginNegativeTestsWrongEmail
+19:43:56.065 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+19:44:06.080 INFO  manager.MyListener - The name of method with error -->>>findElement
+19:44:06.081 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@href='/login?url=%2Fsearch']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2dac4ff3ab09f0a2412d9783b4844d0, findElement {using=xpath, value=//*[@href='/login?url=%2Fsearch']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65003/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2dac4ff3ab09f0a2412d9783b4844d0
+19:44:16.163 INFO  tests.TestBase - Start test with name -->>>successLoginDP
+19:44:26.187 INFO  tests.TestBase - Test start with email: viktor@gmail.com& password: Vviktor12345$
+19:44:26.187 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+19:44:36.250 INFO  manager.MyListener - The name of method with error -->>>findElement
+19:44:36.250 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@href='/login?url=%2Fsearch']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2dac4ff3ab09f0a2412d9783b4844d0, findElement {using=xpath, value=//*[@href='/login?url=%2Fsearch']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65003/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2dac4ff3ab09f0a2412d9783b4844d0
+19:44:46.290 INFO  tests.TestBase - Start test with name -->>>successLoginDP
+19:44:56.327 INFO  tests.TestBase - Test start with email: viktor@gmail.com& password: Vviktor12345$
+19:44:56.328 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+19:45:06.367 INFO  manager.MyListener - The name of method with error -->>>findElement
+19:45:06.367 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@href='/login?url=%2Fsearch']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2dac4ff3ab09f0a2412d9783b4844d0, findElement {using=xpath, value=//*[@href='/login?url=%2Fsearch']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65003/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2dac4ff3ab09f0a2412d9783b4844d0
+19:45:16.408 INFO  tests.TestBase - Start test with name -->>>successLoginDP
+19:45:26.443 INFO  tests.TestBase - Test start with email: viktor@gmail.com& password: Vviktor12345$
+19:45:26.443 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+19:45:36.467 INFO  manager.MyListener - The name of method with error -->>>findElement
+19:45:36.467 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@href='/login?url=%2Fsearch']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b2dac4ff3ab09f0a2412d9783b4844d0, findElement {using=xpath, value=//*[@href='/login?url=%2Fsearch']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65003}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65003/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b2dac4ff3ab09f0a2412d9783b4844d0
+19:45:46.515 INFO  tests.TestBase - Start test with name -->>>successLoginDP
+19:45:56.523 INFO  tests.TestBase - Test start with email: viktor@gmail.com& password: Vviktor12345$
+19:45:56.523 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@href='/login?url=%2Fsearch']

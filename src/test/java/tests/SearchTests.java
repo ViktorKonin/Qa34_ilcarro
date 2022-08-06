@@ -13,7 +13,7 @@ public class SearchTests extends TestBase {
         app.search().searchCurrentMonth("Tel Aviv", "7/28/2022", "7/27/2022");
         app.search().submit();
         Assert.assertTrue(app.search().isListOfCarsAppeared());
-        app.search().takeScreenShots("C:\\Automation_QA34\\Qa34_ilcarro\\Qa34_ilcarro\\src\\test\\screenshots\\screen1");
+        app.search().takeScreenShots("C:\\Automation_QA34\\Qa34_ilcarro\\src\\test\\screenshots\\screen1");
 
     }
     @Test

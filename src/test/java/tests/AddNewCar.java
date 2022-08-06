@@ -20,7 +20,7 @@ public class AddNewCar extends TestBase {
 
     }
 
-    @Test(groups = {"web", "smoke", "regres"})
+    @Test(groups = {"web", "smoke", "regress"})
     public void addNewCarSuccess() {
         Random random = new Random();
         int i = random.nextInt(1000) + 1000;
@@ -45,7 +45,7 @@ public class AddNewCar extends TestBase {
                 .build();
         app.car().openCarForm();
         app.car().fillCarForm(car);
-        app.car().attachPhoto("C:\\Automation_QA34\\Qa34_ilcarro\\Qa34_ilcarro\\auto1.jpeg");
+        app.car().attachPhoto("C:\\Automation_QA34\\Qa34_ilcarro\\auto1.jpeg");
         app.car().submit();
         Assert.assertEquals(app.getHelperUser().getMassage(), "Car added");
     }
@@ -55,7 +55,7 @@ public class AddNewCar extends TestBase {
 
         app.car().openCarForm();
         app.car().fillCarForm(car);
-        app.car().attachPhoto("C:\\Automation_QA34\\Qa34_ilcarro\\Qa34_ilcarro\\auto1.jpeg");
+        app.car().attachPhoto("C:\\Automation_QA34\\Qa34_ilcarro\\auto1.jpeg");
         app.car().submit();
         Assert.assertEquals(app.getHelperUser().getMassage(), "Car added");
     }

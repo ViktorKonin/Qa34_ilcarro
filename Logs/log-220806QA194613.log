@@ -1,0 +1,76 @@
+19:46:15.598 INFO  manager.ApplicationManager - All tests run in Chrome browser.
+19:46:43.160 INFO  manager.ApplicationManager - Current Url-->>>https://ilcarro-1578153671498.web.app/search
+19:46:43.189 INFO  tests.TestBase - Start test with name -->>>addNewCarSuccess
+19:46:53.197 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+19:46:53.216 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+19:46:53.250 INFO  manager.MyListener - WebDriver start find element -->>>By.id: email
+19:46:53.269 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: email
+19:46:53.345 INFO  manager.MyListener - WebDriver start find element -->>>By.id: password
+19:46:53.361 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: password
+19:46:53.434 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+19:46:53.453 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+19:46:53.483 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[@type='submit']
+19:46:53.496 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[@type='submit']
+19:46:55.013 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[text()='Ok']
+19:46:55.030 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //button[text()='Ok']
+19:46:56.062 INFO  manager.MyListener - WebDriver start find element -->>>By.id: 1
+19:46:56.078 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: 1
+19:46:56.120 INFO  manager.MyListener - WebDriver start find element -->>>By.id: pickUpPlace
+19:46:56.135 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: pickUpPlace
+19:46:56.207 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: div.pac-item
+19:46:59.070 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: div.pac-item
+19:46:59.608 INFO  manager.MyListener - WebDriver start find element -->>>By.id: make
+19:46:59.622 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: make
+19:46:59.680 INFO  manager.MyListener - WebDriver start find element -->>>By.id: model
+19:46:59.693 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: model
+19:46:59.756 INFO  manager.MyListener - WebDriver start find element -->>>By.id: year
+19:46:59.771 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: year
+19:46:59.844 INFO  manager.MyListener - WebDriver start find element -->>>By.id: engine
+19:46:59.856 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: engine
+19:46:59.922 INFO  manager.MyListener - WebDriver start find element -->>>By.id: fuel
+19:46:59.936 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: fuel
+19:46:59.982 INFO  manager.MyListener - WebDriver start find element -->>>By.id: gear
+19:46:59.996 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: gear
+19:47:00.037 INFO  manager.MyListener - WebDriver start find element -->>>By.id: wheelsDrive
+19:47:00.053 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: wheelsDrive
+19:47:00.103 INFO  manager.MyListener - WebDriver start find element -->>>By.id: doors
+19:47:00.118 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: doors
+19:47:00.193 INFO  manager.MyListener - WebDriver start find element -->>>By.id: seats
+19:47:00.208 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: seats
+19:47:00.292 INFO  manager.MyListener - WebDriver start find element -->>>By.id: class
+19:47:00.308 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: class
+19:47:00.382 INFO  manager.MyListener - WebDriver start find element -->>>By.id: fuelConsumption
+19:47:00.396 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: fuelConsumption
+19:47:00.480 INFO  manager.MyListener - WebDriver start find element -->>>By.id: serialNumber
+19:47:00.496 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: serialNumber
+19:47:00.577 INFO  manager.MyListener - WebDriver start find element -->>>By.id: price
+19:47:00.591 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: price
+19:47:00.666 INFO  manager.MyListener - WebDriver start find element -->>>By.id: distance
+19:47:00.682 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: distance
+19:47:00.771 INFO  manager.MyListener - WebDriver start find element -->>>By.cssSelector: input[placeholder='Type feature']
+19:47:00.785 INFO  manager.MyListener - WebDriver found element by locator -->>>By.cssSelector: input[placeholder='Type feature']
+19:47:00.864 INFO  manager.MyListener - WebDriver start find element -->>>By.id: about
+19:47:00.877 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: about
+19:47:00.951 INFO  manager.MyListener - WebDriver start find element -->>>By.id: photos
+19:47:00.966 INFO  manager.MyListener - WebDriver found element by locator -->>>By.id: photos
+19:47:00.985 INFO  manager.MyListener - The name of method with error -->>>sendKeys
+19:47:00.988 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : C:\Automation_QA34\Qa34_ilcarro\Qa34_ilcarro\auto1.jpeg
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7319f247c58984ed766d4513770ae10, sendKeysToElement {id=e30322fb-1fa2-4c4c-a9c8-34f0986734b0, value=[Ljava.lang.CharSequence;@3d9f0a5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65185/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a7319f247c58984ed766d4513770ae10)] -> id: photos]
+Session ID: a7319f247c58984ed766d4513770ae10
+19:47:00.991 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //button[text()='Search cars']
+19:47:11.041 INFO  manager.MyListener - The name of method with error -->>>findElement
+19:47:11.041 INFO  manager.MyListener - We have a problem ----->>>>>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=103.0.5060.134)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'VIKTOR', ip: '192.168.52.192', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a7319f247c58984ed766d4513770ae10, findElement {using=xpath, value=//button[text()='Search cars']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Viktor\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:65185}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65185/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a7319f247c58984ed766d4513770ae10

@@ -53,6 +53,7 @@ public class HelperCar extends HelperBase {
 
     public void attachPhoto(String link) {
         wd.findElement(By.id("photos")).sendKeys(link);
+        pause(3000);
     }
 
     public void returnToHome() {

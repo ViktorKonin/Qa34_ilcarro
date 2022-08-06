@@ -26,7 +26,8 @@ public class LoginTests extends TestBase {
     public void successLoginDP(String email,String password) {
         logger.info("Test start with email: " + email + "& password: " + password);
         app.getHelperUser().openLoginForm();
-        app.getHelperUser().fillLoginForm("viktor9@gmail.com", "Vviktor12345$");
+        app.getHelperUser().fillLoginForm(email,password);
+    //    app.getHelperUser().fillLoginForm("viktor9@gmail.com", "Vviktor12345$");
         app.getHelperUser().submit();
         Assert.assertEquals(app.getHelperUser().getMassage(),"Logged in");
         logger.info("Test passed");
@@ -43,7 +44,7 @@ public class LoginTests extends TestBase {
     }
 
 
-    @Test
+    @Test(enabled = false)
     public void loginNegativeTestsWrongEmail() {
 
         app.getHelperUser().openLoginForm();

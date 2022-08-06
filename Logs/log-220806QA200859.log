@@ -1,0 +1,19 @@
+20:09:02.216 INFO  manager.ApplicationManager - All tests run in Chrome browser.
+20:09:07.811 INFO  manager.ApplicationManager - Current Url-->>>https://ilcarro-1578153671498.web.app/search
+20:09:07.841 INFO  tests.TestBase - Start test with name -->>>loginNegativeTestsWrongEmail
+20:09:17.861 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+20:09:17.880 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+20:09:17.914 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //input[@id='email']
+20:09:17.934 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //input[@id='email']
+20:09:28.250 INFO  tests.TestBase - Start test with name -->>>successLoginDP
+20:09:38.280 INFO  tests.TestBase - Test start with email: viktor@gmail.com& password: Vviktor12345$
+20:09:38.281 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+20:09:38.296 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+20:09:38.327 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //input[@id='email']
+20:09:38.343 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //input[@id='email']
+20:09:49.062 INFO  tests.TestBase - Start test with name -->>>successLoginDP
+20:09:59.105 INFO  tests.TestBase - Test start with email: viktor@gmail.com& password: Vviktor12345$
+20:09:59.106 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+20:09:59.118 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //*[@href='/login?url=%2Fsearch']
+20:09:59.138 INFO  manager.MyListener - WebDriver start find element -->>>By.xpath: //input[@id='email']
+20:09:59.153 INFO  manager.MyListener - WebDriver found element by locator -->>>By.xpath: //input[@id='email']

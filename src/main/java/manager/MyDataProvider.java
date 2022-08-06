@@ -32,9 +32,9 @@ public class MyDataProvider {
     }
 
     @DataProvider
-    public Iterator<Object[]>LoginCSV() throws IOException {
+    public Iterator<Object[]>loginCSV() throws IOException {
         List<Object[]> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/Login - Sheet1.csv")));
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/login.csv")));
         String line = reader.readLine();
         while (line!=null) {
             String[] split = line.split(",");
