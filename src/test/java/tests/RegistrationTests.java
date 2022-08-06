@@ -33,7 +33,7 @@ public class RegistrationTests extends TestBase {
         Assert.assertEquals(app.getHelperUser().getMassage(), "Registered");
     }
 
-    @Test (dataProvider = "dataRegistration",dataProviderClass = MyDataProvider.class)
+    @Test (dataProvider = "dataRegistration",dataProviderClass = MyDataProvider.class, enabled = false)
     public void registrationSuccess2(User user){
 
 

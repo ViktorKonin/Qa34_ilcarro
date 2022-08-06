@@ -3,6 +3,7 @@ package tests;
 import manager.MyDataProvider;
 import models.Car;
 import models.User;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -18,9 +19,10 @@ public class AddNewCar extends TestBase {
             app.getHelperUser().login(new User().setEmail("viktor9@gmail.com").setPassword("Vviktor12345$"));
         }
 
+
     }
 
-    @Test(groups = {"web", "smoke", "regress"})
+    @Test(groups = {"web", "smoke", "regress"},enabled = false)
     public void addNewCarSuccess() {
         Random random = new Random();
         int i = random.nextInt(1000) + 1000;
@@ -62,6 +64,7 @@ public class AddNewCar extends TestBase {
 
     @AfterMethod(alwaysRun = true)
     public void postCondition() {
+        app.car().pageUp();
         app.car().returnToHome();
     }
 

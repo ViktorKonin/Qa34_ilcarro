@@ -2,7 +2,9 @@ package manager;
 
 import models.Car;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class HelperCar extends HelperBase {
@@ -62,4 +64,8 @@ public class HelperCar extends HelperBase {
     }
 
 
+    public void pageUp() {
+        Actions actions = new Actions(wd);
+        actions.sendKeys(Keys.PAGE_UP).build().perform();
+    }
 }
